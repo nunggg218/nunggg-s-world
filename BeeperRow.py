@@ -1,21 +1,20 @@
 """
-File: MoveToTheEnd.py
+File: BeeperRow.py
 Name: nunggg
-------------------------
-This file shows how to use while loop
-to walk to the end of a certain row in
-karel world
+-------------------------
+This program makes Karel fill up
+Street 1 with beepers
+(This program should be world insensitive)
 """
 
 from karel.stanfordkarel import *
 
 
 def main():
-    """
-    Karel will move to the end of the first Street in any world
-    """
+    put_beeper()
     while front_is_clear():
         move()
+        put_beeper()
 
 
 # ----- DO NOT MODIFY CODE BELOW THIS LINE ----- #

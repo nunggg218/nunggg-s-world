@@ -1,10 +1,10 @@
 """
-File: MoveToTheEnd.py
-Name: nunggg
+File: InfiniteLoop.py
+Name: Jerry Liao
 ------------------------
-This file shows how to use while loop
-to walk to the end of a certain row in
-karel world
+This file shows the idea of infinite loop,
+reminding students one of the 3 bugs in using
+while loop
 """
 
 from karel.stanfordkarel import *
@@ -12,10 +12,10 @@ from karel.stanfordkarel import *
 
 def main():
     """
-    Karel will move to the end of the first Street in any world
+    Karel will be turning left non-stop
     """
     while front_is_clear():
-        move()
+        turn_left()
 
 
 # ----- DO NOT MODIFY CODE BELOW THIS LINE ----- #
